@@ -2,7 +2,7 @@ import random
 
 
 class Jugador(object):
-    __nomJugador = 'unamedJugador'
+    __nomJugador = ''
 
     def __init__(self, nom):
         self.__nomJugador = nom
