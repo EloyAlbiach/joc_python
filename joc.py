@@ -9,7 +9,7 @@ if __name__ == "__main__":
     comptador2 = 0
     comptador_intern = 0
 
-    jugador1 = Jugador("Pepe")
+    jugador1 = Jugador("Pere")
     jugador2 = Jugador("Anna")
     jutge = Moderador()
 
