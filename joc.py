@@ -24,7 +24,7 @@ if __name__ == "__main__":
             comptador2 += 1
             print jugador2.get_nom() + " té avantatge, " + ma_j2 + " guanya a " + ma_j1
         else:
-            print "empat"
+            print "Es produeix empat"
         comptador_intern += 1
     if comptador1 > comptador2:
         print jugador1.get_nom() + " ha guanyat"
