@@ -9,8 +9,8 @@ class Jugador(object):
 
     def jugar_una_ma(self):
         valors = ('pedra', 'paper', 'tisora')
-        una_ma = random.randint(0, 2)
-        return valors[una_ma]
+        una_ma = random.choice(valors)
+        return una_ma
 
     def get_nom(self):
         return self.__nomJugador
