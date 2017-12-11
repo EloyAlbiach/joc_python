@@ -2,9 +2,8 @@ import random
 
 
 class Jugador(object):
-    __nomJugador = 'unamedJugador'
 
-    def __init__(self, nom):
+    def __init__(self, nom="unamedPlayer"):
         self.__nomJugador = nom
 
     def jugar_una_ma(self):
