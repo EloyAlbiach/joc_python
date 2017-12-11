@@ -3,7 +3,7 @@ import random
 
 class Jugador(object):
 
-    def __init__(self, nom="unamedPlayer"):
+    def __init__(self, nom="unnamedPlayer"):
         self.__nomJugador = nom
 
     def jugar_una_ma(self):
